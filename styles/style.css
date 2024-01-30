@@ -293,6 +293,8 @@ main article.product div.quantity {
   width: 100%;
   margin-top: 7px;
   border: 1px solid rgb(25, 25, 25);
+  /* Chrome, Safari, Edge, Opera */
+  /* Firefox */
 }
 main article.product div.quantity input {
   width: 100px;
@@ -308,6 +310,9 @@ main article.product div.quantity input::-webkit-outer-spin-button,
 main article.product div.quantity input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+main article.product div.quantity input[type=number] {
+  -moz-appearance: textfield;
 }
 main article.product div.quantity button {
   border: none;
