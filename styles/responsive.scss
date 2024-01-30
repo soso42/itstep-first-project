@@ -182,15 +182,24 @@
     section {
       padding: 73px 20px 50px 20px;
 
+      &.slide {
+        div.overlay-block {
+          h1 {
+            text-align: center;
+          }
+          p {
+            text-align: center;
+            font-size: 40px;
+          }
+        }
+      }
+
       &.deals {
         padding: 93px 30px 50px 30px;
-
         div.section-wrapper {
-
           div.arrow {
             display: none;
           }
-
           div.product-wrapper {
             grid-template-columns: 1fr;
             gap: 30px;
@@ -205,6 +214,25 @@
       }
 
     }
+  }
 
+}
+
+
+
+
+@media (max-width: 340px) {
+  header {
+    aside {
+      div.left {
+        div.logo-wrapper {
+          a {
+            p {
+              display: none;
+            }
+          }
+        }
+      }
+    }
   }
 }

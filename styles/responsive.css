@@ -114,6 +114,13 @@
   main section {
     padding: 73px 20px 50px 20px;
   }
+  main section.slide div.overlay-block h1 {
+    text-align: center;
+  }
+  main section.slide div.overlay-block p {
+    text-align: center;
+    font-size: 40px;
+  }
   main section.deals {
     padding: 93px 30px 50px 30px;
   }
@@ -126,6 +133,11 @@
   }
   main section.grab-n-go div.product-wrapper {
     grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 340px) {
+  header aside div.left div.logo-wrapper a p {
+    display: none;
   }
 }
 

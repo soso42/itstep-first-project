@@ -126,6 +126,7 @@ header div.right div.login a p {
 header div.right div.cart {
   width: 24px;
   height: 29px;
+  padding-bottom: 8px;
 }
 header div.right div.hamburger {
   display: none;
@@ -362,7 +363,8 @@ main section.slide div.overlay-block h1 {
 main section.slide div.overlay-block p {
   margin-top: 0;
   padding: 0;
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   font-family: "Helvetica W01 Light", serif;
   font-size: 50px;
   text-align: left;

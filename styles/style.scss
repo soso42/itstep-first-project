@@ -64,9 +64,6 @@ header {
             color: $light-green;
           }
         }
-        //a.active {
-        //  color: $light-green;
-        //}
       }
     }
   }
@@ -113,6 +110,7 @@ header {
     div.cart {
       width: 24px;
       height: 29px;
+      padding-bottom: 8px;
     }
     div.hamburger {
       display: none;
@@ -172,11 +170,9 @@ header {
     div.toggle-button {
       width: 100%;
       @include flex(flex-end);
-
       a {
         text-decoration: none;
       }
-
       img {
         width: 24px;
         height: 24px;
@@ -227,7 +223,6 @@ header {
 main {
   width: 100%;
   max-width: $site-width;
-  //margin-top: 170px;
   margin: 170px 0 0 0 ;
   padding: 0;
   box-sizing: border-box;
@@ -359,7 +354,8 @@ main {
         p {
           margin-top: 0;
           padding: 0;
-          width: 400px;
+          width: 100%;
+          max-width: 400px;
           font-family: $primary-font-light;
           font-size: 50px;
           text-align: left;
@@ -531,9 +527,6 @@ main {
             &:hover {
               border: 2px solid $dark-green;
             }
-            //&:required {
-            //  background-color: red;
-            //}
           }
         }
         div.submit-button {
