@@ -156,7 +156,7 @@
             @include flex(center, center, 0, column);
           }
         }
-        div.form-wrapper {
+        form.form-wrapper {
           grid-template-columns: 1fr;
           div.textarea {
             grid-column: 1;

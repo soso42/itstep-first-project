@@ -100,13 +100,13 @@
     gap: 0;
     flex-direction: column;
   }
-  main section.contact div.form-wrapper {
+  main section.contact form.form-wrapper {
     grid-template-columns: 1fr;
   }
-  main section.contact div.form-wrapper div.textarea {
+  main section.contact form.form-wrapper div.textarea {
     grid-column: 1;
   }
-  main section.contact div.form-wrapper div.submit-button {
+  main section.contact form.form-wrapper div.submit-button {
     grid-column: 1;
   }
 }

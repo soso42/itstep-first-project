@@ -490,7 +490,7 @@ main {
           margin: 0;
         }
       }
-      div.form-wrapper {
+      form.form-wrapper {
         width: 100%;
         max-width: 647px;
         margin-top: 70px;
@@ -528,6 +528,12 @@ main {
             border: 1px solid $dark-green;
             outline: none;
             resize: none;
+            &:hover {
+              border: 2px solid $dark-green;
+            }
+            //&:required {
+            //  background-color: red;
+            //}
           }
         }
         div.submit-button {
